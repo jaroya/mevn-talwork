@@ -2,9 +2,9 @@
   "name": "talwork",
   "version": "1.0.0",
   "description": "MEVN stack basic blog",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "nodemon server/index.js",
     "dev": "nodemon server/index.js"
   },
   "author": "Michael Jaroya",
