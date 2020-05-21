@@ -41,7 +41,7 @@ router.delete('/:id', async (req,res)=>{
 })
 
 async function loadPostsCollection(){
-	const client = await mongodb.MongoClient.connect('mongodb://<db-name>:<db-password>@ds151247.mlab.com:51247/mevn-talwork',{
+	const client = await mongodb.MongoClient.connect('mongodb://micah-mevn:realmenARE1234@ds151247.mlab.com:51247/mevn-talwork',{
 		useNewUrlParser: true
 	});
 
